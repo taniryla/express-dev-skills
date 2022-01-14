@@ -1,0 +1,9 @@
+<%- include('../partials/header') %>
+
+    <h1>Person #<%= skill.id %></h1>
+    <h3><%= skill.skill %></h3>
+    <h3>Complete: <%= skill.has ? 'Yes' : 'No' %> </h3>
+
+    <a href="/skills/<%= skill.id %>/edit">EDIT TOOL</a>
+
+    <%- include('../partials/footer') %>
